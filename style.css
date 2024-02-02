@@ -1,0 +1,55 @@
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Garamond", "Georgia", serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+}
+
+h2 {
+	font-style: italic;
+	color: darkslategrey;
+}
+
+h3 {
+	color: grey;
+}
+
+div {
+	text-align: center;
+}
+
+p, li {
+	font-family: "Garamond", "Georgia", serif;
+	font-size: 18px;
+	margin-top: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: darkred;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.linklist li {
+	margin-top: 1em;
+	text-decoration: none;
+}
+
+a:visited {
+	color:rgb( 100, 0, 0);
+}
+
+a:hover {
+	color:rgb( 190, 0, 0);
+}
+
+.linklist {
+	text-align: center;
+	list-style-type: none;
+  	margin: 20px;
+  	padding: 0;
+}
