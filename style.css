@@ -1,20 +1,26 @@
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Garamond", "Georgia", serif;
+* {
+	/* font-family: "Garamond", "Georgia", serif; */
+	font-family: "Calisto MT", "Bookman Old Style", "Bookman", "Goudy Old Style", "Garamond", "Hoefler Text", "Bitstream Charter", "Georgia", serif;
 }
 
 h1 {
 	text-align: center;
 	font-size: 48px;
+	border: 6px solid darkred;
+	border-radius: 10px;
+	padding: 16px;
+	width: 500px;
+	margin: 20px auto;
 }
 
 h2 {
 	font-style: italic;
-	color: darkslategrey;
+	color: darkred;
 }
 
 h3 {
-	color: grey;
+	color: rgb(56, 23, 23);
 }
 
 div {
@@ -22,34 +28,60 @@ div {
 }
 
 p, li {
-	font-family: "Garamond", "Georgia", serif;
 	font-size: 18px;
-	margin-top: 1em;
+	margin: 1em;
 }
 
 a {
 	text-decoration: none;
 	color: darkred;
 	font-weight: bold;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+}
+
+.linklist {
+	background-color: rgb(38, 21, 14);
+	padding: 20px;
+	border: 20px outset rgb(105, 80, 41);
+	margin: 20px auto;
+	width: 600px;
 }
 
 .linklist li {
-	margin-top: 1em;
 	text-decoration: none;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-a:visited {
-	color:rgb( 100, 0, 0);
+.linklist div {
+	background-color: blanchedalmond;
+	padding: 1em;
+	border: 10px ridge darkred;
+	font-size: 36px;
 }
 
 a:hover {
 	color:rgb( 190, 0, 0);
 }
 
-.linklist {
+/* .linklist {
 	text-align: center;
 	list-style-type: none;
   	margin: 20px;
   	padding: 0;
+} */
+
+.recipe_card {
+	border: 6px solid black;
+	text-align: left;
+	padding: 20px 60px 60px 60px;
+	margin: 40px auto;
+	width: 600px;
+}
+
+img {
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 20px;
 }
